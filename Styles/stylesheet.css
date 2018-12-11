@@ -215,11 +215,13 @@ font-family:'Merienda', sans-serif;
      background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    height: 400px;
+    
 
 }
 #wlc{
-    height: 450px;
+    height: 400px;
+   
 }
 
 #lrn-more {
@@ -229,8 +231,8 @@ font-family:'Merienda', sans-serif;
 }
 
 @media screen and (min-width:768px){
-
-    .nav-cont{
+   
+    .nav-cont{te
         padding: 0px;
         margin: 0px;
         max-height: 40px;
@@ -263,6 +265,7 @@ font-family:'Merienda', sans-serif;
 
     #header{
         padding-top: 35px;
+        
     }
 
 }
@@ -280,6 +283,7 @@ font-family:'Merienda', sans-serif;
 
 }
 @media screen and (max-width:768px){
+    
     .pull-right{
         float: right;
         position: relative;
@@ -308,7 +312,7 @@ font-family:'Merienda', sans-serif;
 
 
     }
-
+    
     .primary-theme {
 
 
@@ -331,13 +335,18 @@ font-family:'Merienda', sans-serif;
         display: none;
     }
     #header{
-        height: 300px;
+        
+        height:400px;
+        margin-bottom: 0%;
+        
+        font-size: 0.75em;
+        
     }
     #wlc{
 
-        margin-top: 15%;
+        margin-top: 1%;
         height: 200px;
-        margin-bottom: 5%;
+        margin-bottom: 0%;
 
 
     }
@@ -502,11 +511,17 @@ font-family:'Merienda', sans-serif;
 
 .content-container {
 
-    height: 1000px;
+    height: 1500px;
+    margin-top: 5%;
+    padding-bottom:50px;
+    position: relative;
 }
 
 .element {
-    height: 400px;
+    height: 250px;
+    padding-top: 20px;
+    
+        
 }
 
 .form-control-borderless {
@@ -531,4 +546,71 @@ font-family:'Merienda', sans-serif;
     width: 25%;
     margin-top: 3%;
     margin-bottom: 8%;
+}
+
+.content-container p{
+    padding-top: 10px;
+    font-size: 0.75em;
+    text-align: center;
+    
+    
+}
+
+.content-container a{
+    position: relative;
+    
+}
+.section-head {
+    height: 80px;
+    padding-top: 30px;
+    background-color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    border-bottom: solid 2px white;
+}
+
+.img-src {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 20px;
+}
+
+#solar {
+    background-color: coral;
+   font-family: 'Roboto Mono', sans-serif;
+    color: aliceblue;
+    border-right: solid 1px white;
+    
+}
+
+#wind {
+      background-color: darkseagreen;
+   font-family: 'Roboto Mono', sans-serif;
+    color: aliceblue;
+    border-right: solid 1px white
+
+}
+
+
+
+
+#biomass {
+       background-color: forestgreen;
+   font-family: 'Roboto Mono', sans-serif;
+    color: aliceblue;
+    border-right: solid 1px white
+}
+
+#ocean {
+     background-color: deepskyblue;
+   font-family: 'Roboto Mono', sans-serif;
+    color: aliceblue;
+    border-right: solid 1px white
+}
+
+#hydrogen {
+    background-color:crimson;
+   font-family: 'Roboto Mono', sans-serif;
+    color: aliceblue;
+    
 }
