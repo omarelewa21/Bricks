@@ -139,7 +139,10 @@
 
 
  #logo:hover {
-
+   background-color: white;
+    
+    
+    
  }
 
  .link-item {
@@ -230,8 +233,10 @@ font-family:'Merienda', sans-serif;
     font-size: .8em;
 }
 
+
 @media screen and (min-width:768px){
    
+
     .nav-cont{te
         padding: 0px;
         margin: 0px;
@@ -267,7 +272,23 @@ font-family:'Merienda', sans-serif;
         padding-top: 35px;
         
     }
+           #solar p{
+    margin-left:40px;
+}
+     #solar a{
+    margin-left:-40px;
+}
 
+    .left-cont {
+      padding-left: 40px;
+        
+        
+    
+}
+    .right-cont{
+       
+    
+    
 }
 .small-menu a{
     text-decoration: none;
@@ -353,6 +374,36 @@ font-family:'Merienda', sans-serif;
     .no-disp {
     display: none;
 }
+    #solar img{
+        margin-bottom: 20px;
+    }
+    #wind img{
+        margin-bottom: 20px;
+    }
+    #biomass img{
+        margin-bottom: 20px;
+    }
+    #ocean img{
+        margin-bottom: 20px;
+    }
+    #hydrogen img{
+        margin-bottom: 20px;
+    }
+    .description{
+        border-left:solid 3px white;
+    }
+  .overlay .closebtn {
+    position: absolute;
+      top: 0px;
+      left: 0px;
+       margin-bottom: 100px;
+}
+    .left-cont {
+       
+        padding-left: -40px;
+   
+}
+    
 }
 
 .pull-left{
@@ -391,7 +442,7 @@ font-family:'Merienda', sans-serif;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: darkorange;
+    background-color:ghostwhite;
 
     overflow-x: hidden;
     transition: 0.5s;
@@ -415,6 +466,21 @@ font-family:'Merienda', sans-serif;
     transition: 0.3s;
 }
 
+.overlay h1{
+    font-family: monospace;
+    padding: 20px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+.overlay form label{
+    padding-bottom: 20px;
+    font-family: cursive;
+    color:darkolivegreen;
+}
+.overlay form{
+    border: solid 3px;
+    padding: 20px;
+}
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
 }
@@ -474,40 +540,7 @@ font-family:'Merienda', sans-serif;
     font-size: .8em;
 }
 
-.copyright {
-    background-color: darkslategray;
-    height: 30px;
-    border-top:solid 1px white;
-}
-.copyright p{
-    text-align: center;
-    padding-top: 5px;
-    color: white;
-    font-size: .8em;
 
-}
-
-.footer h1 {
-    color: gray;
-    font-size: .9em;
-    text-align: justify;
-    padding: 15px;
-
-}
-
-#right-half-footer {
-    border-bottom: solid 1px grey;
-
-    margin-left: 10px;
-}
-
-.sub-form {
-    padding-top: 20px;
-    margin-left: 10%;
-}
-.sub-form button{
-    margin-left: 15%;
-}
 
 .content-container {
 
@@ -517,13 +550,21 @@ font-family:'Merienda', sans-serif;
     position: relative;
 }
 
-.element {
-    height: 250px;
-    padding-top: 20px;
-    
-        
+.element a:hover{
+      border: solid 1px white;     
 }
 
+.element img{
+    border: solid 2px white;
+     -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    -ms-transition: -ms-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out; 
+}
+.element img:hover{
+     transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
 .form-control-borderless {
     border: none;
 }
@@ -549,23 +590,35 @@ font-family:'Merienda', sans-serif;
 }
 
 .content-container p{
-    padding-top: 10px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     font-size: 0.75em;
     text-align: center;
     
     
 }
+.content-container h6{
+    padding-top: 20px;
+      
+    
+}
 
 .content-container a{
     position: relative;
+    top: 100%;
+    
     
 }
 .section-head {
     height: 80px;
     padding-top: 30px;
-    background-color: white;
+    background-color:coral;
+    color: floralwhite;
     font-family: 'Roboto Mono', sans-serif;
     border-bottom: solid 2px white;
+
+    
 }
 
 .img-src {
@@ -580,8 +633,10 @@ font-family:'Merienda', sans-serif;
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white;
-    
+
 }
+
+
 
 #wind {
       background-color: darkseagreen;
@@ -613,4 +668,19 @@ font-family:'Merienda', sans-serif;
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     
+}
+
+
+
+.left-cont {
+   position: relative;
+    background-color: #4FC1E9;
+    height: 400px;
+}
+
+.right-cont {
+    position: relative;
+   background-color: #3BAFDA;
+    height: 400px;
+   
 }
