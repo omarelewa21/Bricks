@@ -277,6 +277,7 @@ font-family:'Merienda', sans-serif;
         padding-left: 40px;
    
 }
+    
 
 }
 .small-menu a{
@@ -369,21 +370,7 @@ font-family:'Merienda', sans-serif;
     .no-disp {
     display: none;
 }
-    #solar img{
-        margin-bottom: 20px;
-    }
-    #wind img{
-        margin-bottom: 20px;
-    }
-    #biomass img{
-        margin-bottom: 20px;
-    }
-    #ocean img{
-        margin-bottom: 20px;
-    }
-    #hydrogen img{
-        margin-bottom: 20px;
-    }
+   
     .description{
         border-left:solid 3px white;
     }
@@ -693,6 +680,23 @@ font-family:'Merienda', sans-serif;
     
 
 }
+
+ #solar img{
+        margin-bottom: 20px;
+    }
+    #wind img{
+        margin-bottom: 20px;
+    }
+    #biomass img{
+        margin-bottom: 20px;
+    }
+    #ocean img{
+        margin-bottom: 20px;
+    }
+    #hydrogen img{
+        margin-bottom: 20px;
+    }
+   
 
 .left-cont {
    position: relative;
