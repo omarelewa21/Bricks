@@ -292,6 +292,12 @@ font-family:'Merienda', sans-serif;
     background-color: chocolate;
 
 }
+@media screen and (max-width:575px){
+    .description{
+        border-left:none !important;
+    }
+    
+}
 @media screen and (max-width:768px){
     
     .pull-right{
