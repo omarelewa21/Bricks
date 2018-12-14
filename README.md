@@ -7,3 +7,4 @@ TODO
 4- Footer Design
 5- Tweek the sources section                #DONE
 6- Design The After Sources Section
+7- Takecare of elements naming and ids specially the password elements of the form
