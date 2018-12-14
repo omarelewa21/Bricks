@@ -139,10 +139,7 @@
 
 
  #logo:hover {
-   background-color: white;
-    
-    
-    
+
  }
 
  .link-item {
@@ -233,10 +230,8 @@ font-family:'Merienda', sans-serif;
     font-size: .8em;
 }
 
-
 @media screen and (min-width:768px){
    
-
     .nav-cont{te
         padding: 0px;
         margin: 0px;
@@ -272,23 +267,17 @@ font-family:'Merienda', sans-serif;
         padding-top: 35px;
         
     }
-           #solar p{
+    #solar p{
     margin-left:40px;
 }
      #solar a{
     margin-left:-40px;
 }
-
     .left-cont {
-      padding-left: 40px;
-        
-        
-    
+        padding-left: 40px;
+   
 }
-    .right-cont{
-       
-    
-    
+
 }
 .small-menu a{
     text-decoration: none;
@@ -398,11 +387,6 @@ font-family:'Merienda', sans-serif;
       left: 0px;
        margin-bottom: 100px;
 }
-    .left-cont {
-       
-        padding-left: -40px;
-   
-}
     
 }
 
@@ -492,6 +476,7 @@ font-family:'Merienda', sans-serif;
     font-size: 60px;
 }
 
+
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -540,7 +525,40 @@ font-family:'Merienda', sans-serif;
     font-size: .8em;
 }
 
+.copyright {
+    background-color: darkslategray;
+    height: 30px;
+    border-top:solid 1px white;
+}
+.copyright p{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    font-size: .8em;
 
+}
+
+.footer h1 {
+    color: gray;
+    font-size: .9em;
+    text-align: justify;
+    padding: 15px;
+
+}
+
+#right-half-footer {
+    border-bottom: solid 1px grey;
+
+    margin-left: 10px;
+}
+
+.sub-form {
+    padding-top: 20px;
+    margin-left: 10%;
+}
+.sub-form button{
+    margin-left: 15%;
+}
 
 .content-container {
 
@@ -556,7 +574,7 @@ font-family:'Merienda', sans-serif;
 
 .element img{
     border: solid 2px white;
-     -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
     -ms-transition: -ms-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out; 
 }
@@ -565,6 +583,7 @@ font-family:'Merienda', sans-serif;
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
 }
+
 .form-control-borderless {
     border: none;
 }
@@ -633,10 +652,8 @@ font-family:'Merienda', sans-serif;
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white;
-
+    
 }
-
-
 
 #wind {
       background-color: darkseagreen;
@@ -668,9 +685,8 @@ font-family:'Merienda', sans-serif;
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     
+
 }
-
-
 
 .left-cont {
    position: relative;
