@@ -27,13 +27,17 @@
  .primary-theme {
 
 
-     background:black;
+     background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4);
      border-bottom: groove 0px white;
      border-bottom-right-radius: 0px;
+     
       position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
+     top: 0;
+    overflow-x: hidden !important; /* Disable horizontal scroll */
+     
+       
 
  }
 .primary-theme:hover{
@@ -41,7 +45,7 @@
 }
 
  .secondary-theme {
-     background-color: #E9573F;
+      background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4);
 }
 
  .fa-bars {
@@ -232,12 +236,12 @@ font-family:'Merienda', sans-serif;
 
 @media screen and (min-width:768px){
    
-    .nav-cont{te
+    .nav-cont{
         padding: 0px;
         margin: 0px;
         max-height: 40px;
-
-
+        
+  
     }
     .vertical-menu {
 
@@ -641,7 +645,7 @@ font-family:'Merienda', sans-serif;
 }
 
 #solar {
-    background-color: coral;
+    background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4,#008C95);
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white;
@@ -649,7 +653,7 @@ font-family:'Merienda', sans-serif;
 }
 
 #wind {
-      background-color: darkseagreen;
+      background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4,#008C95);
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white
@@ -660,21 +664,21 @@ font-family:'Merienda', sans-serif;
 
 
 #biomass {
-       background-color: forestgreen;
+      background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4,#008C95);
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white
 }
 
 #ocean {
-     background-color: deepskyblue;
+    background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4,#008C95);
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     border-right: solid 1px white
 }
 
 #hydrogen {
-    background-color:crimson;
+    background-image: linear-gradient(to right,#008C95,#14BBC8,#50BAA4,#008C95);
    font-family: 'Roboto Mono', sans-serif;
     color: aliceblue;
     
