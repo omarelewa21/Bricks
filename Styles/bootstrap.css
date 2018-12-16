@@ -5817,6 +5817,7 @@ button.close {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+    
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -5996,13 +5997,14 @@ button.close {
   position: relative;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
+  width: 30px ;
   height: 3px;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.5);
+    
 }
 
 .carousel-indicators li::before {
