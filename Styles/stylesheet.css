@@ -160,6 +160,7 @@
    background:#008C95;
     width: 40px;
     float: left;
+    overflow: hidden;
     
 
 
@@ -257,6 +258,13 @@ font-family:'Merienda', sans-serif;
         display: none;
 
     }
+    
+    .car-cont {
+    position: absolute;
+    margin-left: 40px;
+    top: 40px;
+    
+}
 
 
     #header{
@@ -286,7 +294,7 @@ font-family:'Merienda', sans-serif;
 }
 .small-menu a:hover{
    border: solid 1px white;
-    background-color: chocolate;
+    background-color:brown;
 
 }
 @media screen and (max-width:575px){
@@ -307,23 +315,27 @@ font-family:'Merienda', sans-serif;
 
     }
     .small-menu{
-        margin-left: 40px;
+         padding-top: 0px;
+        height: 40px;
         min-width: 100%;
-        position: relative !important;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        overflow-x: hidden; /* Disable horizontal scroll */
+        position: absolute!important;
+        top: 0px;
+        border: solid 1px white;
+        overflow: hidden;
+    }
+    
+    .small-menu a{
+        background-color:crimson;
     }
     .vertical-menu{
+        
         padding-top: 0px;
-        height: 35px;
+        height: 40px;
         min-width: 100%;
-        margin-top: 15px;
-        position: relative !important;
-        top: -15px;
-
-
+        position: absolute!important;
+        top: 40px;
+        border: solid 1px white;
+        overflow: hidden;
 
     }
     
@@ -340,7 +352,12 @@ font-family:'Merienda', sans-serif;
         display: block;
         padding: 12px;
 }
-
+    .car-cont {
+    position: absolute;
+    margin-left: 0px;
+    top: 80px;
+    
+}
     #menu{
         display: none;
     }
@@ -753,7 +770,10 @@ width:100%;
       font-family:cursive;
     transform-origin: left top 0;
     color: black;
+    overflow: hidden;
     
    
 }
+
+
 
