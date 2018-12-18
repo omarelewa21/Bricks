@@ -189,11 +189,6 @@
 
 
 
- #lrn-more {
-     margin-top: 20px;
-
-     font-size: .8em;
- }
 
  @media screen and (min-width:768px) {
 
@@ -226,6 +221,26 @@
 
      }
 
+     .lrn-more {
+         background-color: none;
+         position: relative;
+         top: 50%;
+         left: 60%;
+         border: solid 2px white;
+         background-color: cadetblue;
+         opacity: 0.6;
+         width: 100px;
+         height: 40px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 0px;
+         color: white;
+         font-family: monospace;
+
+     }
+    
      .small-menu {
          display: none;
 
@@ -235,7 +250,6 @@
 
          position: relative;
          height: 400px;
-         ;
          top: 39px;
          left: 40px;
          overflow: hidden;
@@ -243,6 +257,16 @@
 
      }
 
+     
+     .p-description {
+             width: 100%;
+         height: 250px;
+         margin-top: 20px;
+         text-align: justify;
+               padding-top: 40px;
+             padding-bottom: 40px;
+         
+     }
 
      #header {
          padding-top: 35px;
@@ -261,6 +285,8 @@
          padding-left: 40px;
 
      }
+
+    
 
 
  }
@@ -326,6 +352,8 @@
 
      }
 
+
+
      .primary-theme {
 
 
@@ -345,9 +373,44 @@
          position: absolute;
          margin-left: 0px;
          top: 80px;
-
      }
 
+     .p-description {
+             width: 100%;
+         height: 100%;
+               padding-top: 15px;
+             padding-bottom: 15px;
+         
+     }
+
+     .lrn-more {
+         background-color: none;
+         position: relative;
+         top: 50%;
+         left: 10%;
+         border: solid 1px white;
+         background-color: cadetblue;
+         opacity: 0.6;
+         width: 100px;
+         height: 40px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 0px;
+         color: white;
+         font-family: monospace;
+
+     }
+ #right-carousel img{
+         border: solid 5px white;
+     }
+     .carousel-item img {
+         display: block;
+         padding: 0%;
+         
+     }
+    
      #menu {
          display: none;
      }
@@ -486,6 +549,8 @@
          top: 45px;
          right: 35px;
      }
+
+
  }
 
 
@@ -692,31 +757,12 @@
  .p-description {
      color: white;
      font-family: monospace;
-     padding: 40px;
-     text-align: justify;
-     justify-content: center;
+     
+     
+
 
  }
 
- .lrn-more {
-     background-color: none;
-     position: relative;
-     top: 50%;
-     left: 60%;
-     border: solid 1px white;
-     background-color: cadetblue;
-     opacity: 0.6;
-     width: 100px;
-     height: 40px;
-     padding-left: 10px;
-     padding-right: 10px;
-     padding-top: 5px;
-     padding-bottom: 5px;
-     border-radius: 0px;
-     color: white;
-     font-family: monospace;
-
- }
 
  .lrn-more:hover {
      background-color: cadetblue;
@@ -743,7 +789,26 @@
 
  }
 
- .carousel-item img {
-     width: 100%;
-     height: 100%;
- }
+
+
+
+
+.p-head2 {
+    height: 30px;
+    padding: 15px;
+    text-align: center;
+    color: gainsboro;
+    font-family: monospace;
+    font-size: 2em;
+    
+}
+.p-head6 {
+    margin-top: 30px;
+    height: 30px;
+    padding: 15px;
+    text-align: justify;
+    color: gainsboro;
+    font-family: monospace;
+    font-size: 1em;
+    
+}
