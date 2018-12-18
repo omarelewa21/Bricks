@@ -10,3 +10,4 @@ A new Design is adapted
 DONE
 
 1- First section large screen completed
+2- Tooltips added to vertical menu
