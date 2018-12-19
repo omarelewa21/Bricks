@@ -240,7 +240,7 @@
          font-family: monospace;
 
      }
-    
+
      .small-menu {
          display: none;
 
@@ -257,15 +257,18 @@
 
      }
 
-     
+
      .p-description {
-             width: 100%;
+         width: 100%;
          height: 250px;
          margin-top: 20px;
          text-align: justify;
-               padding-top: 40px;
-             padding-bottom: 40px;
-         
+         padding-top: 40px;
+         padding-bottom: 40px;
+
+     }
+     .carousel-caption{
+         display: none;
      }
 
      #header {
@@ -286,7 +289,7 @@
 
      }
 
-    
+
 
 
  }
@@ -306,14 +309,10 @@
 
  }
 
- @media screen and (max-width:575px) {
-     .description {
-         border-left: none !important;
-     }
 
- }
 
  @media screen and (max-width:768px) {
+
 
      .pull-right {
          float: right;
@@ -332,7 +331,7 @@
          min-width: 100%;
          position: absolute !important;
          top: 0px;
-         border: solid 1px white;
+         border: solid 0px white;
          overflow: hidden;
      }
 
@@ -376,11 +375,11 @@
      }
 
      .p-description {
-             width: 100%;
+         width: 100%;
          height: 100%;
-               padding-top: 15px;
-             padding-bottom: 15px;
-         
+         padding-top: 15px;
+         padding-bottom: 15px;
+
      }
 
      .lrn-more {
@@ -402,15 +401,70 @@
          font-family: monospace;
 
      }
- #right-carousel img{
-         border: solid 5px white;
+
+     #right-carousel img {
+         border: solid 0px white;
+         width: 100%;
+         padding: 0px;
+         position: relative;
+         top: 0px;
+         left: 0px;
+         opacity: 1;
+
      }
+     #right-carousel img:hover {
+       
+         opacity: 0.8;
+
+     }
+
+     #right-carousel {
+         padding: 0px;
+     }
+
      .carousel-item img {
          display: block;
          padding: 0%;
+
+     }
+
+     .carousel-nav {
+         display: none;
+         padding: 0px;
+     }
+    .carousel-caption h3{
+        font-family: monospace;
+        font-size: 1.4em;
+        text-align: justify;
+        color:antiquewhite;
+        padding: 5px;
          
      }
-    
+     .carousel-caption p{
+        font-family: monospace;
+        font-size: 0.9em;
+        text-align: justify;
+        color:white;
+         padding: 5px;
+     }
+     
+     .carousel-caption h3:hover{
+       font-weight: bold;
+         font-size: 1.5em;
+         
+         
+     }
+     .carousel-caption p:hover{
+        font-weight: bold;
+         
+     }
+     .carousel-caption a{
+         
+         text-decoration: none;
+         
+         
+     }
+     
      #menu {
          display: none;
      }
@@ -757,8 +811,8 @@
  .p-description {
      color: white;
      font-family: monospace;
-     
-     
+
+
 
 
  }
@@ -793,22 +847,39 @@
 
 
 
-.p-head2 {
-    height: 30px;
-    padding: 15px;
-    text-align: center;
-    color: gainsboro;
-    font-family: monospace;
-    font-size: 2em;
+ .p-head2 {
+     height: 30px;
+     padding: 15px;
+     text-align: center;
+     color: gainsboro;
+     font-family: monospace;
+     font-size: 2em;
+
+ }
+
+ .p-head6 {
+     margin-top: 30px;
+     height: 30px;
+     padding: 15px;
+     text-align: justify;
+     color: gainsboro;
+     font-family: monospace;
+     font-size: 1em;
+
+ }
+
+
+
+ .ind-2 li {
+     border: solid 1px white;
+     width: 15px;
+     height: 15px;
+     border-radius: 10px;
+     background-color:  cadetblue;
+ }
+.ind-2 li:hover {
+     
     
-}
-.p-head6 {
-    margin-top: 30px;
-    height: 30px;
-    padding: 15px;
-    text-align: justify;
-    color: gainsboro;
-    font-family: monospace;
-    font-size: 1em;
-    
-}
+     background-color:grey;
+ }
+
