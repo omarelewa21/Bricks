@@ -6,7 +6,7 @@
 
       if (state_b1 == 0) {
 
-          document.getElementById("tex").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu. Vestibulum et sem sed nisl porta hendrerit. Praesent gravida venenatis ligula, vitae rutrum orci volutpat ut. Nulla facilisi. Nam egestas urna vitae arcu ornare, eu consequat velit mattis.";
+          document.getElementById("tex").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu.";
 
           document.getElementById("lrn-bt-1").textContent = "Less";
           state_b1 = 1;
@@ -26,7 +26,7 @@
 
       if (state_b2 == 0) {
 
-          document.getElementById("tex2").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu. Vestibulum et sem sed nisl porta hendrerit. Praesent gravida venenatis ligula, vitae rutrum orci volutpat ut. Nulla facilisi. Nam egestas urna vitae arcu ornare, eu consequat velit mattis.";
+          document.getElementById("tex2").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu.";
           document.getElementById("lrn-bt-2").textContent = "Less";
           state_b2 = 1;
       } else {
@@ -40,7 +40,7 @@
   function click_3() {
       if (state_b3 == 0) {
 
-          document.getElementById("tex3").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu. Vestibulum et sem sed nisl porta hendrerit. Praesent gravida venenatis ligula, vitae rutrum orci volutpat ut. Nulla facilisi. Nam egestas urna vitae arcu ornare, eu consequat velit mattis.";
+          document.getElementById("tex3").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempus scelerisque nulla eget lacinia. Cras vel mi quis dolor eleifend molestie. Phasellus commodo purus augue, eget porttitor magna interdum eu.";
           document.getElementById("lrn-bt-3").textContent = "Less";
           state_b3 = 1;
       } else {
