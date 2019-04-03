@@ -67,7 +67,7 @@
  .pull-right {
      float: right;
      position: relative;
-     left: 70%;
+     
      
  }
 
@@ -186,7 +186,7 @@
 
 
 
- @media screen and (min-width:900px) {
+ @media screen and (min-width:1400px) {
 
      .nav-cont {
          padding: 0px;
@@ -194,6 +194,12 @@
          max-height: 40px;
 
 
+     }
+    
+     .main-list li {
+      position: relative;
+        
+       
      }
 
      .vertical-menu {
@@ -280,20 +286,19 @@
      }
      .nav-cont {
          display: inline-block;
-
          width: 100%;
          margin-left: 40px;
          max-height: 40px;
+        
+        
 
 
      }
-     .nav-cont ul {
+     .nav-cont ul  {
+        margin-left: 40%;
+         margin-right:5%;
         
-
-         margin-left:35%;
-         margin-right: 5%;
         
-
 
      }
 
@@ -651,7 +656,7 @@
 
 
  }
- @media screen and (min-width:768px) and (max-width : 899px) {
+ @media screen and (min-width:768px) and (max-width : 1399px) {
 
      .nav-cont {
          display: inline-block;
@@ -783,6 +788,7 @@
 
  .pull-left {
      float: left;
+     
  }
 
 
@@ -1168,8 +1174,9 @@
      background-color: grey;
  }
 
-.main-list {
-  
+.main-list li {
+  position: relative;
+    left: 40%;
 }
 
 
