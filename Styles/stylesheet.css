@@ -67,7 +67,8 @@
  .pull-right {
      float: right;
      position: relative;
-     left: 10%;
+     left: 70%;
+     
  }
 
 
@@ -267,6 +268,36 @@
          display: none;
      }
 
+     .carousel-item img {
+         max-width: 900px;
+         height: 400px;
+         display: block;
+         margin: 0 auto;
+     }
+
+     .ind-2 {
+         display: none;
+     }
+     .nav-cont {
+         display: inline-block;
+
+         width: 100%;
+         margin-left: 40px;
+         max-height: 40px;
+
+
+     }
+     .nav-cont ul {
+        
+
+         margin-left:35%;
+         margin-right: 5%;
+        
+
+
+     }
+
+
      #header {
          padding-top: 35px;
 
@@ -310,11 +341,7 @@
  @media screen and (max-width:575px) {
 
 
-     .pull-right {
-         float: right;
-         position: relative;
-         left: auto;
-     }
+    
 
      .nav-cont {
          display: none;
@@ -502,18 +529,154 @@
 
 
 
- @media screen and (min-width:576px) and (max-device-width : 899px) {
+ @media screen and (min-width:576px) and (max-width : 767px) {
 
      .nav-cont {
-         display: inline-block;
-
-         padding: 0px;
+         
+        
+         padding-bottom: 2px;
          margin-left: 40px;
-         max-height: 40px;
+         height: 40x;
+
+
+     }
+    
+     .main-list{
+         
+         left: 4%;
+         width: 50%;
+         font-size: 0.9em;
+     }
+   
+     
+     .vertical-menu {
+
+         padding-top: 40px;
+         width: 40px;
+         float: left;
+
+         opacity: 1;
+
+         border-radius: 0px 0px 0px 0px;
+         position: fixed;
+         /* Fixed Sidebar (stay in place on scroll) */
+         z-index: 1;
+         /* Stay on top */
+         left: 0;
+         overflow-x: hidden;
+         /* Disable horizontal scroll */
+         height: 100%;
 
 
      }
 
+     .lrn-more {
+         background-color: none;
+         position: relative;
+         top: 0%;
+         left: 0%;
+         border: solid 2px white;
+         background-color: cadetblue;
+         opacity: 0.6;
+         width: 100px;
+         height: 40px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 0px;
+         color: white;
+         font-family: monospace;
+
+     }
+
+     .small-menu {
+         display: none;
+
+     }
+
+     #navbar-links-cont {
+         position: relative;
+         float: right;
+
+         left:-10%;
+     }
+    
+
+     .car-cont {
+
+         position: relative;
+         height: 400px;
+         top: 39px;
+         left: 40px;
+         overflow: hidden;
+
+
+     }
+
+
+     .p-description {
+
+         margin-left: -40%;
+         margin-right: -45%;
+         height: 250px;
+         margin-top: 20px;
+         text-align: justify;
+         padding-top: 40px;
+         padding-bottom: 40px;
+
+     }
+
+     .p-head2 {
+         margin-left: -40%;
+         margin-right: -45%;
+     }
+
+     .carousel-caption {
+         display: none;
+     }
+
+     .carousel-item img {
+         max-width: 900px;
+         height: 400px;
+         display: block;
+         margin: 0 auto;
+     }
+
+     .ind-2 {
+         display: none;
+     }
+
+
+
+
+ }
+ @media screen and (min-width:768px) and (max-width : 899px) {
+
+     .nav-cont {
+         display: inline-block;
+        
+         padding: 0px;
+         margin-left: 40px;
+         height: 40x;
+
+
+     }
+    #logo-cont {
+       
+       width: 40%;
+   
+        
+        
+     }
+     .main-list{
+         float: left;
+         left: 5%;
+         width: 50%;
+     }
+      
+   
+     
      .vertical-menu {
 
          padding-top: 40px;
@@ -566,6 +729,7 @@
 
          left: -10%;
      }
+    
 
      .car-cont {
 
@@ -580,17 +744,18 @@
 
 
      .p-description {
-         
+
          margin-left: -40%;
          margin-right: -45%;
          height: 250px;
          margin-top: 20px;
-         text-align:justify;
+         text-align: justify;
          padding-top: 40px;
          padding-bottom: 40px;
 
      }
-     .p-head2{
+
+     .p-head2 {
          margin-left: -40%;
          margin-right: -45%;
      }
@@ -601,11 +766,12 @@
 
      .carousel-item img {
          max-width: 900px;
-         height:400px;
+         height: 400px;
          display: block;
          margin: 0 auto;
      }
-     .ind-2{
+
+     .ind-2 {
          display: none;
      }
 
@@ -613,6 +779,7 @@
 
 
  }
+
 
  .pull-left {
      float: left;
@@ -1000,3 +1167,9 @@
 
      background-color: grey;
  }
+
+.main-list {
+  
+}
+
+
