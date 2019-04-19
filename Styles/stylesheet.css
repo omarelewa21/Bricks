@@ -411,14 +411,24 @@
      }
      .navigator{
          border: solid 2px white;
+        
          border-top-right-radius: 100px;
          border-bottom-right-radius: 100px;
          
-         background:white;
+         
          width: 30%;
          padding: 2%;
          text-align: center;
          height: 200px;
+         opacity: 0.8;
+     }
+     .navigator:hover{
+        
+         background:red;
+         opacity: 1;
+         border-right: solid 2px;
+         border-color: chocolate;
+         
      }
      
      
@@ -426,16 +436,36 @@
          
          padding-top: 25px;
          width: 70%;
+         
        
      }
      .img-desc p{
          padding-top: 20px;
          
-         text-align: center;
-         width: 100%;
+         
        
      }
-    
+
+  
+
+ .img-desc img {
+     
+     -webkit-transition: -webkit-transform 1.2s ease-in-out;
+     -ms-transition: -ms-transform 1.2s ease-in-out;
+     transition: transform 1.2s ease-in-out;
+              text-align: center;
+     border: solid 2px white;
+     border-radius: 60px;
+
+ }
+
+ .img-desc img:hover {
+     transform: rotate(360deg);
+     -ms-transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+ }
+
+     
      .products {
          margin-top: 0px;
          height: 200px;
@@ -983,23 +1013,7 @@
      position: relative;
  }
 
- .element a:hover {
-     border: solid 1px white;
- }
-
- .element img {
-     border: solid 2px white;
-     -webkit-transition: -webkit-transform 1.2s ease-in-out;
-     -ms-transition: -ms-transform 1.2s ease-in-out;
-     transition: transform 1.2s ease-in-out;
- }
-
- .element img:hover {
-     transform: rotate(360deg);
-     -ms-transform: rotate(360deg);
-     -webkit-transform: rotate(360deg);
- }
-
+ 
  .form-control-borderless {
      border: none;
  }
