@@ -67,8 +67,8 @@
  .pull-right {
      float: right;
      position: relative;
-     
-     
+
+
  }
 
 
@@ -186,7 +186,7 @@
 
 
 
- 
+
 
  .small-menu a {
      text-decoration: none;
@@ -236,7 +236,7 @@
          top: 40px;
          border: solid 0px white;
          overflow: hidden;
-
+         
      }
 
 
@@ -254,15 +254,16 @@
          color: white;
          display: block;
          padding: 12px;
+         
      }
 
      .car-cont {
          position: relative;
          margin-left: 0px;
          top: 80px;
-        
+
      }
-     
+
      .p-description {
          width: 100%;
          height: 100%;
@@ -379,7 +380,7 @@
      .no-disp {
          display: none;
      }
-     
+
 
      .overlay .closebtn {
          position: relative;
@@ -390,247 +391,128 @@
          margin-bottom: 50px;
          float: right;
      }
+
      .second-cont {
-        position: relative;
-        top: 80px;
-        margin-left: 0px !important;
-        height: auto;
-        width: 100%;overflow-x: hidden;
+         position: relative;
+         top: 80px;
+         margin-left: 0px !important;
+         height: auto;
+         width: 100%;
+         overflow-x: hidden;
          overflow-y: hidden;
          z-index: 0;
-        
-         
+
+
      }
 
      .services {
+         border: solid 6px black;
+         border-bottom: solid 0px black;
          margin-top: 0px;
          height: 200px;
-        background: #14BBC8;
-        text-align:center;
-         
+         background: #14BBC8;
+         text-align: center;
+
      }
-     .navigator{
-         border: solid 2px white;
-        
-         border-top-right-radius: 100px;
-         border-bottom-right-radius: 100px;
-         
-         
+
+     .navigator {
+
+
          width: 30%;
          padding: 2%;
          text-align: center;
-         height: 200px;
+         height: 194px;
          opacity: 0.8;
+         border: none;
+         border-right:solid 5px white;
+         color: white;
+         font-family:monospace;
+         font-size: 1.3em;
      }
-     .navigator:hover{
-        
-         background:red;
-         opacity: 1;
-         border-right: solid 2px;
-         border-color: chocolate;
-         
-     }
-     
-     
-     .img-desc{
-         
+
+
+
+     .img-desc {
+
          padding-top: 25px;
          width: 70%;
-         
-       
+
+
      }
-     .img-desc p{
+
+     .img-desc p {
          padding-top: 20px;
-         
-         
-       
+         font-family: 'Roboto Mono', sans-serif;
+         font-size: 0.85em;
+
+
+
      }
 
-  
 
- .img-desc img {
-     
-     -webkit-transition: -webkit-transform 1.2s ease-in-out;
-     -ms-transition: -ms-transform 1.2s ease-in-out;
-     transition: transform 1.2s ease-in-out;
-              text-align: center;
-     border: solid 2px white;
-     border-radius: 60px;
 
- }
+     .img-desc img {
 
- .img-desc img:hover {
-     transform: rotate(360deg);
-     -ms-transform: rotate(360deg);
-     -webkit-transform: rotate(360deg);
- }
+         -webkit-transition: -webkit-transform 1.2s ease-in-out;
+         -ms-transition: -ms-transform 1.2s ease-in-out;
+         transition: transform 1.2s ease-in-out;
+         text-align: center;
+         border: solid 2px white;
+         border-radius: 60px;
 
-     
+     }
+
+     .img-desc img:hover {
+         transform: rotate(360deg);
+         -ms-transform: rotate(360deg);
+         -webkit-transform: rotate(360deg);
+     }
+
+
      .products {
+         border: solid 6px black;
+         border-bottom: solid 0px black;
+         border-top: solid 6px black;
          margin-top: 0px;
          height: 200px;
          background: crimson;
-         text-align:center;
-        
-     }   
+         text-align: center;
+
+     }
 
      .more {
+         border: solid 6px black;
+         border-bottom: solid 0px black;
+         border-top: solid 6px black;
          margin-top: 0px;
          height: 200px;
          background: green;
-         text-align:center;
-         
+         text-align: center;
+
      }
 
  }
+
  @media screen and (min-width:576px) and (max-width : 767px) {
 
      .nav-cont {
-         
-        
+
+
          padding-bottom: 2px;
          margin-left: 40px;
          height: 40x;
 
 
      }
-    
-     .main-list{
-         
+
+     .main-list {
+
          left: 4%;
          width: 50%;
          font-size: 0.9em;
      }
-   
-     
-     .vertical-menu {
-
-         padding-top: 40px;
-         width: 40px;
-         float: left;
-
-         opacity: 1;
-
-         border-radius: 0px 0px 0px 0px;
-         position: fixed;
-         /* Fixed Sidebar (stay in place on scroll) */
-         z-index: 1;
-         /* Stay on top */
-         left: 0;
-         overflow-x: hidden;
-         /* Disable horizontal scroll */
-         height: 100%;
 
 
-     }
-
-     .lrn-more {
-         background-color: none;
-         position: relative;
-         top: 0%;
-         left: 0%;
-         border: solid 2px white;
-         background-color: cadetblue;
-         opacity: 0.6;
-         width: 100px;
-         height: 40px;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         border-radius: 0px;
-         color: white;
-         font-family: monospace;
-
-     }
-
-     .small-menu {
-         display: none;
-
-     }
-
-     #navbar-links-cont {
-         position: relative;
-         float: right;
-
-         left:-10%;
-     }
-    
-
-     .car-cont {
-
-         position: relative;
-         height: 400px;
-         top: 39px;
-         left: 40px;
-         overflow: hidden;
-
-
-     }
-
-
-     .p-description {
-
-         margin-left: -40%;
-         margin-right: -45%;
-         height: 250px;
-         margin-top: 20px;
-         text-align: justify;
-         padding-top: 40px;
-         padding-bottom: 40px;
-
-     }
-
-     .p-head2 {
-         margin-left: -40%;
-         margin-right: -45%;
-     }
-
-     .carousel-caption {
-         display: none;
-     }
-
-     .carousel-item img {
-         max-width: 100%;
-         height: 400px;
-         display: block;
-         margin: 0 auto;
-     }
-
-     .ind-2 {
-         display: none;
-     }
-
-
-
-
- }
- @media screen and (min-width:768px) and (max-width : 1399px) {
-
-     .nav-cont {
-         display: inline-block;
-        
-         padding: 0px;
-         margin-left: 40px;
-         height: 40x;
-
-
-     }
-    #logo-cont {
-       
-       width: 40%;
-   
-        
-        
-     }
-     .main-list{
-         float: left;
-         left: 5%;
-         width: 50%;
-     }
-      
-   
-     
      .vertical-menu {
 
          padding-top: 40px;
@@ -683,7 +565,7 @@
 
          left: -10%;
      }
-    
+
 
      .car-cont {
 
@@ -699,7 +581,8 @@
 
      .p-description {
 
-         
+         margin-left: -40%;
+         margin-right: -45%;
          height: 250px;
          margin-top: 20px;
          text-align: justify;
@@ -732,6 +615,137 @@
 
 
  }
+
+ @media screen and (min-width:768px) and (max-width : 1399px) {
+
+     .nav-cont {
+         display: inline-block;
+
+         padding: 0px;
+         margin-left: 40px;
+         height: 40x;
+
+
+     }
+
+     #logo-cont {
+
+         width: 40%;
+
+
+
+     }
+
+     .main-list {
+         float: left;
+         left: 5%;
+         width: 50%;
+     }
+
+
+
+     .vertical-menu {
+
+         padding-top: 40px;
+         width: 40px;
+         float: left;
+
+         opacity: 1;
+
+         border-radius: 0px 0px 0px 0px;
+         position: fixed;
+         /* Fixed Sidebar (stay in place on scroll) */
+         z-index: 1;
+         /* Stay on top */
+         left: 0;
+         overflow-x: hidden;
+         /* Disable horizontal scroll */
+         height: 100%;
+
+
+     }
+
+     .lrn-more {
+         background-color: none;
+         position: relative;
+         top: 0%;
+         left: 0%;
+         border: solid 2px white;
+         background-color: cadetblue;
+         opacity: 0.6;
+         width: 100px;
+         height: 40px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 0px;
+         color: white;
+         font-family: monospace;
+
+     }
+
+     .small-menu {
+         display: none;
+
+     }
+
+     #navbar-links-cont {
+         position: relative;
+         float: right;
+
+         left: -10%;
+     }
+
+
+     .car-cont {
+
+         position: relative;
+         height: 400px;
+         top: 39px;
+         left: 40px;
+         overflow: hidden;
+
+
+     }
+
+
+     .p-description {
+
+
+         height: 250px;
+         margin-top: 20px;
+         text-align: justify;
+         padding-top: 40px;
+         padding-bottom: 40px;
+
+     }
+
+     .p-head2 {
+         margin-left: -40%;
+         margin-right: -45%;
+     }
+
+     .carousel-caption {
+         display: none;
+     }
+
+     .carousel-item img {
+         max-width: 100%;
+         height: 400px;
+         display: block;
+         margin: 0 auto;
+     }
+
+     .ind-2 {
+         display: none;
+     }
+
+
+
+
+ }
+
  @media screen and (min-width:1400px) {
 
      .nav-cont {
@@ -741,11 +755,11 @@
 
 
      }
-    
+
      .main-list li {
-      position: relative;
-        
-       
+         position: relative;
+
+
      }
 
      .vertical-menu {
@@ -830,21 +844,23 @@
      .ind-2 {
          display: none;
      }
+
      .nav-cont {
          display: inline-block;
          width: 100%;
          margin-left: 40px;
          max-height: 40px;
-        
-        
+
+
 
 
      }
-     .nav-cont ul  {
-        margin-left: 40%;
-         margin-right:5%;
-        
-        
+
+     .nav-cont ul {
+         margin-left: 40%;
+         margin-right: 5%;
+
+
 
      }
 
@@ -874,7 +890,7 @@
 
  .pull-left {
      float: left;
-     
+
  }
 
 
@@ -1013,7 +1029,7 @@
      position: relative;
  }
 
- 
+
  .form-control-borderless {
      border: none;
  }
@@ -1244,19 +1260,15 @@
      background-color: grey;
  }
 
-.main-list li {
-  position: relative;
-    left: 40%;
-}
+ .main-list li {
+     position: relative;
+     left: 40%;
+ }
 
 
 
-.second-cont {
-    position: relative;
-    
-    margin-left: 40px;
-}
+ .second-cont {
+     position: relative;
 
-
-
-
+     margin-left: 40px;
+ }
