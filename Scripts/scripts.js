@@ -53,7 +53,7 @@
 
   function openNav() {
       document.getElementById("myNav").style.width = "100%";
-      document.getElementsByClassName("navi").style.display= "none";
+      
   }
 
   function openSearch() {
