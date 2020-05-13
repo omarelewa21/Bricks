@@ -227,67 +227,16 @@ html,
 
      }
 
-     .lrn-more {
-         background-color: none;
-         position: relative;
-         top: 50%;
-         left: 60%;
-         border: solid 2px white;
-         background-color: cadetblue;
-         opacity: 0.6;
-         width: 100px;
-         height: 40px;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         border-radius: 0px;
-         color: white;
-         font-family: monospace;
-
-     }
+   
 
      .small-menu {
          display: none;
 
      }
 
-     .car-cont {
+  
 
-         position: relative;
-         height: 400px;
-         top: 39px;
-         left: 40px;
-         overflow: hidden;
-
-
-     }
-
-
-     .p-description {
-         width: 100%;
-         height: 250px;
-         margin-top: 20px;
-         text-align: center;
-         padding-top: 40px;
-         padding-bottom: 40px;
-
-     }
-
-     .carousel-caption {
-         display: none;
-     }
-
-     .carousel-item img {
-         max-width: 100%;
-         height: 400px;
-         display: block;
-         margin: 0 auto;
-     }
-
-     .ind-2 {
-         display: none;
-     }
+   
      .nav-cont {
          display: inline-block;
          width: 100%;
@@ -312,18 +261,7 @@ html,
 
      }
 
-     #solar p {
-         margin-left: 40px;
-     }
-
-     #solar a {
-         margin-left: -40px;
-     }
-
-     .left-cont {
-         padding-left: 40px;
-
-     }
+     
 
 
 
@@ -400,108 +338,10 @@ html,
          padding: 12px;
      }
 
-     .car-cont {
-         position: absolute;
-         margin-left: 0px;
-         top: 80px;
-     }
-
-     .p-description {
-         width: 100%;
-         height: 100%;
-         padding-top: 15px;
-         padding-bottom: 15px;
-
-     }
-
-     .lrn-more {
-         background-color: none;
-         position: relative;
-         top: 50%;
-         left: 10%;
-         border: solid 1px white;
-         background-color: cadetblue;
-         opacity: 0.6;
-         width: 100px;
-         height: 40px;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         border-radius: 0px;
-         color: white;
-         font-family: monospace;
-
-     }
-
-     #right-carousel img {
-         border: solid 0px white;
-         width: 100%;
-         padding: 0px;
-         position: relative;
-         top: 0px;
-         left: 0px;
-         opacity: 1;
-
-     }
-
-     #right-carousel img:hover {
-
-         opacity: 0.8;
-
-     }
-
-     #right-carousel {
-         padding: 0px;
-     }
-
-     .carousel-item img {
-         display: block;
-         padding: 0%;
-
-     }
-
-     .carousel-nav {
-         display: none;
-         padding: 0px;
-     }
-
-     .carousel-caption h3 {
-         font-family: monospace;
-         font-size: 1.4em;
-         text-align: justify;
-         color: antiquewhite;
-         padding: 5px;
-
-     }
-
-     .carousel-caption p {
-         font-family: monospace;
-         font-size: 0.9em;
-         text-align: justify;
-         color: white;
-         padding: 5px;
-     }
-
-     .carousel-caption h3:hover {
-         font-weight: bold;
-         font-size: 1.5em;
-
-
-     }
-
-     .carousel-caption p:hover {
-         font-weight: bold;
-
-     }
-
-     .carousel-caption a {
-
-         text-decoration: none;
-
-
-     }
-
+   
+ 
+  
+    
      #menu {
          display: none;
      }
@@ -577,25 +417,7 @@ html,
 
      }
 
-     .lrn-more {
-         background-color: none;
-         position: relative;
-         top: 0%;
-         left: 0%;
-         border: solid 2px white;
-         background-color: cadetblue;
-         opacity: 0.6;
-         width: 100px;
-         height: 40px;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         border-radius: 0px;
-         color: white;
-         font-family: monospace;
 
-     }
 
      .small-menu {
          display: none;
@@ -610,51 +432,8 @@ html,
      }
     
 
-     .car-cont {
-
-         position: relative;
-         height: 400px;
-         top: 39px;
-         left: 40px;
-         overflow: hidden;
-
-
-     }
-
-
-     .p-description {
-
-         margin-left: -40%;
-         margin-right: -45%;
-         height: 250px;
-         margin-top: 20px;
-         text-align: justify;
-         padding-top: 40px;
-         padding-bottom: 40px;
-
-     }
-
-     .p-head2 {
-         margin-left: -40%;
-         margin-right: -45%;
-     }
-
-     .carousel-caption {
-         display: none;
-     }
-
-     .carousel-item img {
-         max-width: 100%;
-         height: 400px;
-         display: block;
-         margin: 0 auto;
-     }
-
-     .ind-2 {
-         display: none;
-     }
-
-
+   
+    
 
 
  }
@@ -705,25 +484,7 @@ html,
 
      }
 
-     .lrn-more {
-         background-color: none;
-         position: relative;
-         top: 0%;
-         left: 0%;
-         border: solid 2px white;
-         background-color: cadetblue;
-         opacity: 0.6;
-         width: 100px;
-         height: 40px;
-         padding-left: 10px;
-         padding-right: 10px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         border-radius: 0px;
-         color: white;
-         font-family: monospace;
-
-     }
+     
 
      .small-menu {
          display: none;
@@ -737,52 +498,6 @@ html,
          left: -10%;
      }
     
-
-     .car-cont {
-
-         position: relative;
-         height: 400px;
-         top: 39px;
-         left: 40px;
-         overflow: hidden;
-
-
-     }
-
-
-     .p-description {
-
-         
-         height: 250px;
-         margin-top: 20px;
-         text-align: justify;
-         padding-top: 40px;
-         padding-bottom: 40px;
-
-     }
-
-     .p-head2 {
-         margin-left: -40%;
-         margin-right: -45%;
-     }
-
-     .carousel-caption {
-         display: none;
-     }
-
-     .carousel-item img {
-         max-width: 100%;
-         height: 400px;
-         display: block;
-         margin: 0 auto;
-     }
-
-     .ind-2 {
-         display: none;
-     }
-
-
-
 
  }
 
@@ -1087,171 +802,6 @@ input {
 
 
 
- .sub-form {
-     padding-top: 20px;
-     margin-left: 10%;
- }
-
- .sub-form button {
-     margin-left: 15%;
- }
-
- .content-container {
-
-     height: 1500px;
-     margin-top: 5%;
-     padding-bottom: 50px;
-     position: relative;
- }
-
- .element a:hover {
-     border: solid 1px white;
- }
-
- .element img {
-     border: solid 2px white;
-     -webkit-transition: -webkit-transform 1.2s ease-in-out;
-     -ms-transition: -ms-transform 1.2s ease-in-out;
-     transition: transform 1.2s ease-in-out;
- }
-
- .element img:hover {
-     transform: rotate(360deg);
-     -ms-transform: rotate(360deg);
-     -webkit-transform: rotate(360deg);
- }
-
- .form-control-borderless {
-     border: none;
- }
-
- .form-control-borderless:hover,
- .form-control-borderless:active,
- .form-control-borderless:focus {
-     border: none;
-     outline: none;
-     box-shadow: none;
- }
-
-
- .content-container p {
-     padding-top: 0px;
-     margin-top: 20px;
-     margin-bottom: 10px;
-     font-size: 0.75em;
-     text-align: center;
-
-
- }
-
- .content-container h6 {
-     padding-top: 20px;
-
-
- }
-
- .content-container a {
-     position: relative;
-     top: 100%;
-
-
- }
-
- .section-head {
-     height: 80px;
-     padding-top: 30px;
-     background-color: coral;
-     color: floralwhite;
-     font-family: 'Roboto Mono', sans-serif;
-     border-bottom: solid 0px white;
-
-
- }
-
- .img-src {
-     width: 80px;
-     height: 80px;
-     border-radius: 40px 40px 40px 40px;
-     margin-top: 20px;
- }
-
- #solar {
-     background-image: linear-gradient(to right, #008C95, #14BBC8, #50BAA4, #008C95);
-     font-family: 'Roboto Mono', sans-serif;
-     color: aliceblue;
-     border-right: solid 1px white;
-
- }
-
- #wind {
-     background-image: linear-gradient(to right, #008C95, #14BBC8, #50BAA4, #008C95);
-     font-family: 'Roboto Mono', sans-serif;
-     color: aliceblue;
-     border-right: solid 1px white
- }
-
-
-
-
- #biomass {
-     background-image: linear-gradient(to right, #008C95, #14BBC8, #50BAA4, #008C95);
-     font-family: 'Roboto Mono', sans-serif;
-     color: aliceblue;
-     border-right: solid 1px white
- }
-
- #ocean {
-     background-image: linear-gradient(to right, #008C95, #14BBC8, #50BAA4, #008C95);
-     font-family: 'Roboto Mono', sans-serif;
-     color: aliceblue;
-     border-right: solid 1px white
- }
-
- #hydrogen {
-     background-image: linear-gradient(to right, #008C95, #14BBC8, #50BAA4, #008C95);
-     font-family: 'Roboto Mono', sans-serif;
-     color: aliceblue;
-
-
- }
-
- #solar img {
-     margin-bottom: 20px;
- }
-
- #wind img {
-     margin-bottom: 20px;
- }
-
- #biomass img {
-     margin-bottom: 20px;
- }
-
- #ocean img {
-     margin-bottom: 20px;
- }
-
- #hydrogen img {
-     margin-bottom: 20px;
- }
-
-
- .left-cont {
-     position: relative;
-     background-color: #4FC1E9;
-     height: 400px;
- }
-
- .right-cont {
-     position: relative;
-     background-color: #3BAFDA;
-     height: 400px;
-
- }
-
-
-
-
 
 
  .vertical-text {
@@ -1482,6 +1032,9 @@ font-size: 1.5em
 .services-container h5{
     display: flex;
     justify-content: center;
+    font-size: 1em;
+    color: darkred;
+    font-family: monospace;
 }
 .services-container a{
     text-decoration: none;
@@ -1494,17 +1047,25 @@ font-size: 1.5em
     width: 100%;
 }
 .card{
-    width: 20%;
+    width: 15%;
     border-radius: 0px;
     height: 120px;
+    background-color:#fff3cd;
+    border-bottom: 3px solid #ffd8a6;
     
-    
+}
+
+.card i{
+    color: dodgerblue;
 }
 .card:hover{
     transform: scaleY(1.2);
     
-    background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
-    border-bottom: solid 3px white;
+   /* background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
+    */
+    background-color:white;
+    
+    border-bottom: solid 3px gray;
     border-radius: 0px;
    
 }
@@ -1514,15 +1075,99 @@ font-size: 1.5em
     justify-content: center;
     padding-top: 30px;
 }
-#buy-card{border-bottom: solid 3px orange;}
-#sell-card{border-bottom: solid 3px green;}
-#repair-card{border-bottom: solid 3px darkblue;}
-#field-card{border-bottom: solid 3px crimson;}
-#solution-card{border-bottom: solid 3px violet;}
+
 
 .offers-section {
     height: 400px;
     position: relative;
     top: 39px;
     left: 40px;
+}
+
+.carousel-container {
+    position: relative;
+    top: 39px;
+    left: 40px;
+}
+
+
+
+
+#carouselExampleControls {
+    width: 100%;
+    
+}
+#carouselExampleControls img{
+    height: 450px;
+}
+
+.carousel-control-prev {
+   
+    text-decoration: none;
+    opacity: 1;
+    background-color: black;
+  width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    
+}
+
+.carousel-control-next {
+    
+     text-decoration: none;
+    opacity: 1;
+    background-color: black;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+}
+.carousel-control-next span{
+    display: flex;
+    align-content:center;
+    position: absolute;
+    left: 10%;
+}
+.caption-container {
+    width: 40%;
+    
+}
+.caption-title{
+    background-color: orange;
+    height: 30px;
+    opacity: 0.8;
+    padding: 5px;
+    position: relative;
+    left: -120px;
+    
+}
+.caption-title a{
+    text-decoration: none;
+    color: white;
+}
+.caption-title a:hover{
+    opacity:0.8;
+}
+
+.caption-tail {
+    background-color: black;
+    width: 150%;
+    position: relative;
+    left: -80px;
+    height: 60px;
+    opacity: 0.8;
+    padding: 5px;
+    font-size: 0.9em;
+    display: inline-block;
+    text-align: left;
+    
+}
+.caption-tail a{
+    text-decoration: none;
+    color: white;
+    
+}
+.caption-tail p{
+    padding: 10px;
 }
