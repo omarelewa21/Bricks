@@ -1,7 +1,17 @@
-  var state_b1 = 0;
-  var state_b2 = 0;
-  var state_b3 = 0;
+var state_b1 = 0;
+var state_b2 = 0;
+var state_b3 = 0;
+const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
 
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
   function click_1() {
 
       if (state_b1 == 0) {
@@ -53,7 +63,6 @@
 
   function openNav() {
       document.getElementById("myNav").style.width = "100%";
-      
   }
 
   function openSearch() {
@@ -64,3 +73,5 @@
       document.getElementById("myNav").style.width = "0%";
       document.getElementById("search-nav").style.width = "0%";
   }
+
+
