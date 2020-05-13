@@ -1411,3 +1411,118 @@ input {
 font-size: 1.5em
 }
 
+
+.footer-col {
+    height: 220px;
+    background-color: black;
+    
+    position: relative;
+    top: 39px;
+    left: 40px;
+       opacity:0.9;
+   border-right: solid 1px gray; 
+}
+
+
+.footer-col h3{
+    padding: 10px 10px 10px 0px;
+    
+    font-weight: bold;
+    color: whitesmoke;
+}
+.footer-col a{
+    color: azure;
+    font-size: 0.8em;
+    
+}
+.footer-col li{
+    padding: 5px;
+   
+}
+.footer-col hr{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    border: solid 1px gray;
+}
+
+.small-footer {
+    height: 40px;
+    position: relative;
+    border-top:solid 1px gray;
+    left: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#horizontal-list li{
+    display: inline;
+    float: left;
+    width: 40px;
+    align-content: right;
+}
+
+
+
+
+.services-container {
+    position: relative;
+    top: 39px;
+    left: 20px;
+    
+}
+.services-container i{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.services-container h5{
+    display: flex;
+    justify-content: center;
+}
+.services-container a{
+    text-decoration: none;
+    
+   color: black;
+    
+}
+
+.card-group{
+    width: 100%;
+}
+.card{
+    width: 20%;
+    border-radius: 0px;
+    height: 120px;
+    
+    
+}
+.card:hover{
+    transform: scaleY(1.2);
+    
+    background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
+    border-bottom: solid 3px white;
+    border-radius: 0px;
+   
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#buy-card{border-bottom: solid 3px orange;}
+#sell-card{border-bottom: solid 3px green;}
+#repair-card{border-bottom: solid 3px darkblue;}
+#field-card{border-bottom: solid 3px crimson;}
+#solution-card{border-bottom: solid 3px violet;}
+
+.offers-section {
+    height: 400px;
+    position: relative;
+    top: 39px;
+    left: 40px;
+}
