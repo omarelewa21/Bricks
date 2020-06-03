@@ -10,10 +10,7 @@
 
     <?php include('config/css.php'); ?>
     <?php include('config/fonts.php'); ?>
-
-
     <title><?php echo $page['title'].' | '.$site_title; ?></title>
-
 
 </head>
 
@@ -28,27 +25,20 @@
             if($page['id']==1){
                 include(D_TEMPLATE.'/carousel.php');
                 include(D_TEMPLATE.'/services_banner.php');
-                include(D_TEMPLATE.'/products_table.php');
+                //include(D_TEMPLATE.'/products_table.php');
+                include(D_TEMPLATE.'/short_nav.php');
                 include(D_TEMPLATE.'/footer.php');
+                
             }elseif($page['id']==2){
                 //Test the shop
+                
                 include(D_TEMPLATE.'/breadcrumb.php');
                 include(D_TEMPLATE.'/shop_table.php');
                 include(D_TEMPLATE.'/footer.php');
                 
-            }
-        
-        
-            
-        
+            }                  
         ?>
-
-
     </div>
-
-
-
-
 </body>
 
 </html>

@@ -749,11 +749,12 @@ input {
 }
 
 .card {
-    width: 15%;
+    
     border-radius: 0px;
     height: 120px;
     background-color: #fff3cd;
     border-bottom: 3px solid #ffd8a6;
+    margin-bottom: 0px !important;
 
 }
 
@@ -1031,4 +1032,45 @@ input {
 .product-img{
  width: 120px;
     height: 80px;
+}
+.dataTables_length{
+    padding: 10px;
+    
+    
+}
+.dataTables_length label{
+    font-family:monospace;
+}
+
+.dataTables_length select{
+   border: solid 1px darkcyan;
+    border-radius: 0px;
+    align-content: center;
+}
+.dataTables_filter{
+    font-family: monospace;
+}
+.dataTables_filter input{
+    border: solid 1px darkcyan;
+    
+    border-radius: 0px;
+}
+.dataTables_filte label{
+    font-family: monospace;
+}
+
+.dataTables_info{
+    font-family: monospace;
+    color: darkcyan;
+}
+.dataTables_paginate li{
+    font-family: monospace;
+  
+} 
+.page-item.active .page-link{
+    background-color: darkcyan;
+}
+.short-nav{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
