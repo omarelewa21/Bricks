@@ -2,7 +2,7 @@
       <div class="row">
           <div class="card-group ">
 
-              <div class="card  col-xs-4 col-sm-4 col-md-4 col-lg-4" id="buy-card">
+              <div class="card   col-xs-12" id="buy-card">
                   <a href=""><i class="fas fa-shopping-cart fa-2x"></i>
 
                       <div class="card-body">
@@ -13,7 +13,7 @@
                   </a>
 
               </div>
-              <div class="card  col-xs-4 col-sm-4 col-md-4 col-lg-4" id="sell-card">
+              <div class="card   col-xs-12" id="sell-card">
                   <a href=""><i class="fas fa-dollar-sign fa-2x"></i>
 
                       <div class="card-body">
@@ -24,7 +24,7 @@
                   </a>
 
               </div>
-              <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4" id="repair-card">
+              <div class="card  col-xs-12" id="repair-card">
                   <a href=""><i class="fas fa-cogs fa-2x"></i>
 
                       <div class="card-body">
@@ -35,7 +35,7 @@
                   </a>
 
               </div>
-              <div class="card   col-xs-4 col-sm-4 col-md-4 col-lg-4" id="field-card">
+              <div class="card  col-xs-12" id="field-card">
                   <a href=""><i class="fas fa-user-cog fa-2x"></i>
 
                       <div class="card-body">
@@ -46,7 +46,7 @@
                   </a>
 
               </div>
-              <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4" id="solution-card">
+              <div class="card  col-xs-12" id="solution-card">
                   <a href=""><i class="fas fa-database fa-2x"></i>
 
                       <div class="card-body">
@@ -57,7 +57,7 @@
                   </a>
 
               </div>
-              <div class="card  col-xs-4 col-sm-4 col-md-4 col-lg-4" id="system-card">
+              <div class="card   col-xs-12" id="system-card">
                   <a href=""><i class="fas fa-cloud fa-2x"></i>
 
                       <div class="card-body">
