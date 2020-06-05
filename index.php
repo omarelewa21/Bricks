@@ -27,7 +27,7 @@
                 include(D_TEMPLATE.'/services_banner.php');
                 //include(D_TEMPLATE.'/products_table.php');
                 include(D_TEMPLATE.'/short_nav.php');
-                include(D_TEMPLATE.'/footer.php');
+                //include(D_TEMPLATE.'/footer.php');
                 
             }elseif($page['id']==2){
                 //Test the shop
