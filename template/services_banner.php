@@ -1,4 +1,4 @@
-  <div class="container-fluid services-container">
+  <div class="container services-container">
       <div class="row">
           <div class="card-group ">
 

@@ -721,7 +721,7 @@ input {
     
     position: relative;
     left: 0px;
-
+margin-top: 40px;
 
 }
 
@@ -747,39 +747,40 @@ input {
 }
 
 .card-group {
-    /*width: 100%;*/
+    width: 100%;
 }
 
 .card {
-    /*
+    
     border-radius: 0px;
-    height: 120px;
-    background-color: #fff3cd;
-    border-bottom: 3px solid #ffd8a6;
-    margin-bottom: 0px !important;*/
+    height: 160px;
+    background-color: white;
+    border-top: 3px solid darkcyan;
+    border-bottom: 3px solid darkcyan;
+    margin-bottom: 0px !important;
 
 }
 
 .card i {
-   /* color: #008C95;*/
+    color: #008C95;
 }
 
 .card:hover {
-   /* transform: scaleY(1.2);
+    transform: scaleY(1.2);
 
-     background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
-    *//*
+    /* background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
+    */
     background-color: white;
 
     border-bottom: solid 3px gray;
-    border-radius: 0px;*/
+    border-radius: 0px;
 
 }
 
 .card-body {
-  /*  display: flex;
+   display: flex;
     justify-content: center;
-    padding-top: 30px;*/
+    padding-top: 30px;
 }
 
 
@@ -1097,24 +1098,17 @@ text-decoration: none;
     border-bottom: solid 1px darkcyan;
     border-left: solid 1px darkcyan;
     border-right: solid 1px darkcyan;
-    height: 400px;
+    
+    
     
 }
 .on-sale-row{
     justify-content: center;
 }
-.on-sale-row .card{
-    height: 350px;
-    
-    margin: 20px 10px 10px 10px;
-    
-}
-.product-card{
-    height: 250px;
-background-color: darkcyan;
-    
-}
+
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     background-color:beige;
     
 }
+

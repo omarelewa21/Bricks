@@ -1,3 +1,86 @@
+<style>
+    #content-slider {
+        height: 250px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    ul {
+        list-style: none outside none;
+        padding-left: 0;
+
+    }
+
+    .demo .item {
+        margin-bottom: 0px;
+    }
+
+    .content-slider li {
+        background-color: darkcyan;
+        text-align: center;
+        height: 100%;
+        color: #FFF;
+    }
+
+    .content-slider li:hover {
+        border: groove 2px white;
+    }
+
+    .content-slider img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .content-slider h3 {
+        margin: 0;
+        padding: 70px 0;
+
+    }
+
+    .demo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .conttt {
+        position: relative;
+        top: 0px;
+    }
+
+    .sale {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        margin-left: 0px;
+        background-color: gold;
+        color: darkblue;
+        font-family: serif;
+        font-size: 0.9em;
+        padding: 4px;
+        border-radius: 0px 0px 50px 0px;
+
+
+    }
+
+    .price {
+        position: absolute;
+        top: 72%;
+        width: 60px;
+        left: calc(100% - 60px);
+        margin-left: 0px;
+        padding: 6px;
+        font-size: 0.9em;
+        background-color: lightgray;
+        font-family: serif;
+        color: black;
+    }
+
+</style>
+
+
+
 <div class="container short-nav">
     <div class="row row-content">
         <div class="col-12">
@@ -19,76 +102,90 @@
                 </li>
 
             </ul>
-            <div class="tab-content ">
-                <div role="tabpanel" class="tab-pane fade show active" id="on-sale">
+            <div class="tab-content">
+                <div role="tabpanel" class=" demo tab-pane fade show active" id="on-sale">
 
-                    <div class="row on-sale-row">
-                        
-                            <div class="card col-lg-2 col-xs-12" >
-                                <img class="card-img-top" src="pics/ocean.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Product 1</h5>
-                                    <p class="card-text">Some quick example text to build on the card </p>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                    <div class="item">
+                        <ul id="content-slider" class="content-slider ">
+                            <li>
+
+                                <div class="conttt">
+                                    <a href=""><img class="card-img-top" src="pics/p1.jpg" alt=""></a>
+                                    <span class="sale">10% OFF</span>
+                                    <span class="price">20.0 $</span>
                                 </div>
-                            </div>
-                            <div class="card col-lg-2 col-xs-12" >
-                                <img class="card-img-top" src="../pics/ocean.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                            </li>
+                             <li>
+
+                                <div class="conttt">
+                                    <a href=""><img class="card-img-top" src="pics/p5.jpg" alt=""></a>
+                                    <span class="sale">20% OFF</span>
+                                    <span class="price">20.0 $</span>
                                 </div>
-                            </div>
-                            <div class="card col-lg-2 col-xs-12" >
-                                <img class="card-img-top" src="../pics/ocean.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                            </li>
+                             <li>
+
+                                <div class="conttt">
+                                    <a href=""><img class="card-img-top" src="pics/p3.jpeg" alt=""></a>
+                                    <span class="sale">40% OFF</span>
+                                    <span class="price">20.0 $</span>
                                 </div>
-                            </div>
-                            <div class="card col-lg-2 col-xs-12" >
-                                <img class="card-img-top" src="../pics/ocean.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                            </li>
+                             <li>
+
+                                 <div class="conttt">
+                                     <a href=""><img class="card-img-top" src="pics/p1.jpg" alt=""></a>
+                                     <span class="sale">15% OFF</span>
+                                     <span class="price">20.0 $</span>
+                                 </div>
+
+                             </li>
+                             <li>
+
+                                <div class="conttt">
+                                    <a href=""><img class="card-img-top" src="pics/p1.jpg" alt=""></a>
+                                    <span class="sale">18% OFF</span>
+                                    <span class="price">20.0 $</span>
                                 </div>
-                            </div>
-                            <div class="card col-lg-2 col-xs-12" >
-                                <img class="card-img-top" src="../pics/ocean.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                            </li>
+                             <li>
+
+                                <div class="conttt">
+                                    <a href=""><img class="card-img-top" src="pics/p1.jpg" alt=""></a>
+                                    <span class="sale">10% OFF</span>
+                                    <span class="price">20.0 $</span>
                                 </div>
-                            </div>
-                        
-                        
-                        
-                        
+
+                            </li>
+                           
+                        </ul>
                     </div>
 
+                </div>
 
 
-                </div>
-                <div role="tabpanel" class="tab-pane fade  " id="new-arrival">
-                    <p> Lorem </p>
-                </div>
-                <div role="tabpanel" class="tab-pane fade  " id="top-categories">
-                    <p> Ipsum </p>
-                </div>
-                <div role="tabpanel" class="tab-pane fade  " id="top-brands">
-                    <p> Ipsum </p>
-                </div>
-                <div role="tabpanel" class="tab-pane fade  " id="best-sellers">
-                    <p> Ipsum </p>
-                </div>
-                <div role="tabpanel" class="tab-pane fade  " id="new-articles">
-                    <p> Ipsum </p>
-                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane fade  " id="new-arrival">
+                <p> Lorem </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade  " id="top-categories">
+                <p> Ipsum </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade  " id="top-brands">
+                <p> Ipsum </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade  " id="best-sellers">
+                <p> Ipsum </p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade  " id="new-articles">
+                <p> Ipsum </p>
             </div>
         </div>
     </div>
+</div>
 </div>
