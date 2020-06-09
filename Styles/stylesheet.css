@@ -657,138 +657,13 @@ input {
 }
 
 
-.footer-col {
-    height: 220px;
-    background-color: #008C95;
-
-    position: relative;
-    top: 0px;
-    left: 0px;
-    opacity: 0.9;
-    border-right: solid 1px white;
-}
-
-
-.footer-col h3 {
-    padding: 10px 10px 10px 0px;
-
-    font-weight: bold;
-    color: whitesmoke;
-}
-
-.footer-col a {
-    color: azure;
-    font-size: 0.8em;
-
-}
-
-.footer-col li {
-    padding: 5px;
-
-}
-
-.footer-col hr {
-    padding: 0px;
-    margin: 0px;
-    color: white;
-    border: solid 1px white;
-}
-
-.small-footer {
-    height: 40px;
-    position: relative;
-    border-top: solid 1px white;
-    left: 0px;
-    background-color: #008C95;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-#horizontal-list li {
-    display: inline;
-    float: left;
-    width: 40px;
-    align-content: right;
-}
 
 
 
 
-.services-container {
-    
-    position: relative;
-    left: 0px;
-margin-top: 40px;
-
-}
-
-.services-container i {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.services-container h5 {
-    display: flex;
-    justify-content: center;
-    font-size: 1em;
-    color: #008C95;
-    font-family: monospace;
-}
-
-.services-container a {
-    text-decoration: none;
-
-    color: black;
-
-}
-
-.card-group {
-    width: 100%;
-}
-
-.card {
-    
-    border-radius: 0px;
-    height: 160px;
-    background-color: white;
-    border-top: 3px solid darkcyan;
-    border-bottom: 3px solid darkcyan;
-    margin-bottom: 0px !important;
-
-}
-
-.card i {
-    color: #008C95;
-}
-
-.card:hover {
-    transform: scaleY(1.2);
-
-    /* background-image:linear-gradient(to right, #008C95, #14BBC8, #008C95);
-    */
-    background-color: white;
-
-    border-bottom: solid 3px gray;
-    border-radius: 0px;
-
-}
-
-.card-body {
-   display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
 
 
-.offers-section {
-    height: 400px;
-    position: relative;
 
-}
 
 .carousel-container {
     position: relative;
@@ -1079,9 +954,9 @@ margin-top: 40px;
     margin-bottom: 40px;
 }
 .tapped-nav{
-    background-color: darkcyan;
-    opacity: 0.8;
-    border-radius: 10px 10px 0 0;
+    background-color:cornflowerblue;
+    opacity:1;
+    border-radius: 0 0 0 0;
     justify-content: center;
     
 }
@@ -1096,8 +971,7 @@ text-decoration: none;
 }
 .tab-content{
     border-bottom: solid 1px darkcyan;
-    border-left: solid 1px darkcyan;
-    border-right: solid 1px darkcyan;
+    
     
     
     

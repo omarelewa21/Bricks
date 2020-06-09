@@ -1,77 +1,124 @@
-  <div class="container services-container">
-      <div class="row">
-          <div class="card-group ">
+ <style>
+     .services-container {
 
-              <div class="card   col-xs-12" id="buy-card">
-                  <a href=""><i class="fas fa-shopping-cart fa-2x"></i>
-
-                      <div class="card-body">
-                          <h5 class="card-title">Buy</h5>
-
-
-                      </div>
-                  </a>
-
-              </div>
-              <div class="card   col-xs-12" id="sell-card">
-                  <a href=""><i class="fas fa-dollar-sign fa-2x"></i>
-
-                      <div class="card-body">
-                          <h5 class="card-title">Sell</h5>
+         position: relative;
+         left: 0px;
+         
+         /*margin-top: 40px;*/
+         
+         /* border: solid 3px darkcyan;*/
 
 
-                      </div>
-                  </a>
+     }
+     .services-container .row{
+         justify-content: center;
+     }
 
-              </div>
-              <div class="card  col-xs-12" id="repair-card">
-                  <a href=""><i class="fas fa-cogs fa-2x"></i>
+     .services-container a {
+         text-decoration: none;
+         color: darkcyan;
+     }
 
-                      <div class="card-body">
-                          <h5 class="card-title">Repair</h5>
+      .services-item{
+           display: block;
+           justify-content: center;
+           text-align: center;
+           padding: 20px;
+          margin: 20px;
+          background-color: #eeeeee;
+          
+           font-family: 'Roboto Mono';
+     }.services-item:hover{
+         background-color: aliceblue;
+         
+  
+        box-shadow: 5px 5px 5px 5px #888888;
+     }
+       .services-item i{
+           width: 100;
+           padding: 10px;
+           color:darkcyan;
+       }
+       .services-item h3{
+           width: 100;
+           font-size: 0.9em;
+       }
+       .services-item p{
+           width: 100;
+           padding: 10px;
+           text-align: center;
+           font-size: 0.8em;
+           color: darkcyan;
+       }
+       
 
+        
+      
+     .services-container h2 {
+         background: darkcyan;
+         color: #fff;
+         width: 200px;
+         font-size: 24px;
+         padding: 5px;
+         height: 40px;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         font-family: serif;
+     }
 
-                      </div>
-                  </a>
+     .services-container h2::after {
+         content: '';
+         border-top: solid 40px darkcyan;
+         border-right: solid 40px transparent;
+         position: relative;
+         left: 70px;
+         top: 36px;
+     }
 
-              </div>
-              <div class="card  col-xs-12" id="field-card">
-                  <a href=""><i class="fas fa-user-cog fa-2x"></i>
+ </style>
 
-                      <div class="card-body">
-                          <h5 class="card-title">Field Services</h5>
+ <div class="container services-container">
+     <h2>Our Services</h2>
+     <div class="row">
+        <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-shopping-cart fa-2x"></i>
+            <h3>Buy</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+         <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-dollar-sign fa-2x"></i>
+            <h3>Sell</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+         <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-cogs fa-2x"></i>
+            <h3>Repair</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+     </div>
+        <div class="row">
+        <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-user-cog fa-2x"></i>
+            <h3>Field Services</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+         <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-database fa-2x"></i>
+            <h3>Custom Solutions</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+         <div class="col-lg-3 col-xs-12 services-item">
+            <a href=""><i class="fas fa-cloud fa-2x"></i>
+            <h3>System Management</h3>
+            <p>We are using safe payments</p>
+            </a>
+         </div>
+     </div>
+        
+     </div>
 
-
-                      </div>
-                  </a>
-
-              </div>
-              <div class="card  col-xs-12" id="solution-card">
-                  <a href=""><i class="fas fa-database fa-2x"></i>
-
-                      <div class="card-body">
-                          <h5 class="card-title">Custom Solution</h5>
-
-                      </div>
-
-                  </a>
-
-              </div>
-              <div class="card   col-xs-12" id="system-card">
-                  <a href=""><i class="fas fa-cloud fa-2x"></i>
-
-                      <div class="card-body">
-                          <h5 class="card-title">System Management</h5>
-
-                      </div>
-
-                  </a>
-
-              </div>
-
-
-
-
-          </div>
-      </div>
-  </div>

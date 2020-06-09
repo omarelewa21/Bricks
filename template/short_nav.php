@@ -1,4 +1,7 @@
 <style>
+    .short-nav{
+        padding: 0px;
+    }
     #content-slider {
         height: 250px;
         margin-bottom: 20px;
@@ -18,20 +21,24 @@
     }
 
     .content-slider li {
-        background-color: darkcyan;
+        
         text-align: center;
-        height: 100%;
+        
         color: #FFF;
+        margin-bottom: 20px;
+        
     }
 
     .content-slider li:hover {
-        border: groove 2px white;
+        border: solid 2px #888888;
+        
     }
 
     .content-slider img {
         height: 100%;
         width: 100%;
     }
+  
 
     .content-slider h3 {
         margin: 0;
@@ -66,9 +73,10 @@
 
     .price {
         position: absolute;
-        top: 72%;
+        top: 91%;
         width: 60px;
         left: calc(100% - 60px);
+        
         margin-left: 0px;
         padding: 6px;
         font-size: 0.9em;
@@ -81,8 +89,8 @@
 
 
 
-<div class="container short-nav">
-    <div class="row row-content">
+<div class="container-fluid short-nav">
+    <div class="row row-content ">
         <div class="col-12">
             <ul class="nav nav-tabs tapped-nav">
                 <li class="nav-item">
@@ -170,22 +178,8 @@
 
 
             </div>
-            <div role="tabpanel" class="tab-pane fade  " id="new-arrival">
-                <p> Lorem </p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade  " id="top-categories">
-                <p> Ipsum </p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade  " id="top-brands">
-                <p> Ipsum </p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade  " id="best-sellers">
-                <p> Ipsum </p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade  " id="new-articles">
-                <p> Ipsum </p>
-            </div>
+            
         </div>
     </div>
 </div>
-</div>
+
