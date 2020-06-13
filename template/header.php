@@ -1,9 +1,5 @@
-
- 
-
-    
-     <nav class='navbar navbar-expand-md navbar-dark  sticky-top  nav-menu'>
-     <!-- 
+<nav class='navbar navbar-expand-md navbar-dark  sticky-top  nav-menu'>
+<!--
 <?php if($debug['value']==1){?>
    <button class='btn btn-danger' id="debug-btn"><i class="fas fa-bug"></i></button> 
    <?php } ?>*/ -->
@@ -14,11 +10,19 @@
     <a class="navbar-brand" href=""><img class="d-block" src="pics/11.png" alt="Heave"></a>
         <span class='navbar-text text-light'>HEAVE TECH</span>
     <div class='collapse navbar-collapse' id='collapse-target'>
-        
-        
         <ul class='navbar-nav mr-auto'>
 
         </ul>
+
+        <form class="form-inline my-2 my-lg-0" action="" method="get" name="basicsearch">
+            <input class="form-control mr-sm-2" name="searchbar"  type="search" placeholder="🔍 Keyword / Part Number" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <ul class='navbar-nav mr-auto'>
+
+        </ul>
+
         <ul class='navbar-nav'>
             <li class='nav-item'>
                 <a class=" nav-link text-light "  href='?page=1'>HOME</a>
