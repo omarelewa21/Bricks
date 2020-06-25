@@ -7,5 +7,6 @@
  <link rel="stylesheet" href="Styles/reset.css">
  
  <link rel="stylesheet" href="Styles/stylesheet.css">
-  <link type="text/css" rel="stylesheet" href="Styles/lightslider.css" /> 
+  <link type="text/css" rel="stylesheet" href="Styles/lightslider.css" />
+
 

@@ -19,6 +19,7 @@
     <?php include(D_TEMPLATE.'/vertical_navbar.php');?>
     <div class="body-container bg-light">
         <?php include(D_TEMPLATE.'/header.php');?>
+        <?php include(D_TEMPLATE.'/filter_table.php');?>
         <!-- Carousel Container-->
         <?php 
             //if($debug['value'] == 1){include('widgets/debugger.php');}
@@ -41,6 +42,7 @@
             }                  
         ?>
     </div>
+    
 </body>
 
 </html>
