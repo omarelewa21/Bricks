@@ -88,3 +88,53 @@ hr{
 .box-title{
     color: rgb(121, 12, 12);
 }
+
+.PriceBox{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e4e4e4;
+    margin: 3%;
+}
+
+.BoxHeader, .PriceMeter, .Min-Max{
+    width: 100%;
+}
+
+.Price{
+    padding-right: 10%;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(173, 69, 69);
+}
+
+.Apply{
+    margin-left: 5%;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    font-size: medium;
+    color: #008C95;
+}
+
+.Min-Max{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.min, .max, .min-max-span{
+    background-color: white;
+    margin: 4%;
+}
+
+.inp{
+    border: 1px solid black;
+    font-size: 65%;
+}
+
+.min-max-span{
+    color: black;
+    font-size: x-large;
+    height: 50%;
+    margin: auto;
+}
