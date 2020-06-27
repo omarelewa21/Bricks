@@ -16,6 +16,35 @@
     padding: 10px;
 }
 
+.SecTitle{
+    width: 100%;
+    margin-top: 18%;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SecName{
+    padding-right: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(173, 69, 69);
+    border-right: 2px solid black;
+}
+
+.Reset{
+    margin-left: 5%;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    font-size: large;
+    color: #008C95;
+}
+
+hr{
+    margin: 4%;
+}
+
 .filter-box{
     height: 100%;
     width: 100%;

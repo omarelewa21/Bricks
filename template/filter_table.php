@@ -1,6 +1,11 @@
 <link rel="stylesheet" href="Styles/filter.css">
 
 <section class="filter-container">
+    <div class="SecTitle">
+        <span class="SecName">FilterBar </span>
+        <button class="Reset" type="submit">Reset</button>
+    </div>
+    <hr>
     <div class="filterCol">
         <form class="filter-form">
             <div class="filter-box">
@@ -201,7 +206,7 @@
         <form class="filter-form">
             <div class="filter-box">
                 <div class="filter-title">
-                    <span class="box-title">Manufacturer</span>
+                    <span class="box-title">Bridge Rectifier Case Style</span>
                 </div>
 
                 <div class="filter-options">
@@ -209,7 +214,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>FAIRCHILD SEMICONDUCTOR</span>
+                            <span>Module</span>
                         </label> 
                     </div>
 
@@ -217,7 +222,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>VISHAY</span>     
+                            <span>SIP</span>     
                         </label> 
                     </div>
 
@@ -225,7 +230,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>IXYS SEMICONDUCTOR</span>     
+                            <span>DIP</span>     
                         </label> 
                     </div>
 
@@ -233,7 +238,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>TEXAS INSTRUMENTS</span>     
+                            <span>Through Hole </span>     
                         </label> 
                     </div>
 
@@ -241,7 +246,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>TAIWAN SEMICONDUCTOR</span>     
+                            <span>SOIC</span>     
                         </label> 
                     </div>
 
@@ -249,7 +254,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>MULTICOMP</span>     
+                            <span>SMD </span>     
                         </label> 
                     </div>
 
@@ -257,7 +262,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>CRYDOM </span>     
+                            <span>KBPC  </span>     
                         </label> 
                     </div>
 
@@ -265,7 +270,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>NTE ELECTRONICS </span>     
+                            <span>SDIP  </span>     
                         </label> 
                     </div>
 
@@ -273,7 +278,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>SEMIKRON </span>     
+                            <span>KBPM  </span>     
                         </label> 
                     </div>
 
@@ -281,7 +286,7 @@
                         <input class="filter-attr" type="checkbox" name="">
 
                         <label class="att-name">
-                            <span>DIODES INC</span>     
+                            <span>GBPC </span>     
                         </label> 
                     </div>
                     
