@@ -1,11 +1,10 @@
-<link rel="stylesheet" href="Styles/filter.css">
+<link rel="stylesheet" href="Styles/filter.css?version=51">
 
 <section class="filter-container">
     <div class="SecTitle">
-        <span class="SecName">FilterBar </span>
-        <button class="Reset" type="submit">Reset</button>
+        <button class="Apply-All">Apply Filter </button>
+        <button class="Reset" type="submit">Reset Filter</button>
     </div>
-    <hr>
     <div class="filterCol">
         <form class="filter-form">
             <div class="filter-box">
@@ -102,30 +101,7 @@
 
     </div>
 
-    <div class="PriceBox">
-        <div class="BoxHeader">
-            <span class="Price">PRICE (EGP)</span>
-            <button class="Apply">Apply</button>
-        </div>
-
-        <div class="PriceMeter">
-            <input class="meter" name="meter" type="range" value="1" min="1" max="9999">
-        </div>
-
-        <div class="Min-Max">
-            <div class="min">
-                <input class="min inp" type="number" name="min" value="1" placeholder="Min" min="1" max="9999">
-            </div>
-
-                <span class="min-max-span"> - </span>
-
-            <div class="max">
-                <input class="max inp" type="number" name="min" value="9999" placeholder="Max" min="1" max="9999">
-            </div>
-        </div>
-    </div>
-
-<!------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------->    
 
     <div class="filterCol">
         <form class="filter-form">
@@ -225,6 +201,30 @@
 
     <!------------------------------------------------------------------------------------------------------------------------->
 
+    <div class="PriceBox">
+        <div class="BoxHeader">
+            <span class="Price">PRICE (EGP)</span>
+            <button class="Apply">Apply</button>
+        </div>
+
+        <div class="PriceMeter">
+            <input class="meter" name="meter" type="range" value="1" min="1" max="9999">
+        </div>
+
+        <div class="Min-Max">
+            <div class="min">
+                <input class="min inp" type="number" name="min" value="1" placeholder="Min" min="1" max="9999">
+            </div>
+
+                <span class="min-max-span"> - </span>
+
+            <div class="max">
+                <input class="max inp" type="number" name="min" value="9999" placeholder="Max" min="1" max="9999">
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------------------------------------------------------------------------------------------->
     <div class="filterCol">
         <form class="filter-form">
             <div class="filter-box">
